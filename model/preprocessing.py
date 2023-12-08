@@ -7,7 +7,6 @@ def preprocessing(path):
     df = pd.read_csv(path)
 
     sparse_features = ['userId', 'title', 'genres', 'tag']
-    # target = ['target']
 
     label_encoders = {}
     for feat in sparse_features:
