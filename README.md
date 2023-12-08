@@ -18,7 +18,7 @@
 
 
 ## 결과
-'''python
+```python
 test LogLoss 0.3888
 test AUC 0.8765
-'''
+```
